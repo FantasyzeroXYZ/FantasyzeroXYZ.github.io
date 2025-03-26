@@ -1,0 +1,7 @@
+site_name: CrazyNPC的杂货铺
+theme:
+  name: material
+  language: zh
+plugins:
+  - search
+  - blog
