@@ -1,0 +1,29 @@
+name: Deploy MkDocs site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # 当向main分支推送代码时触发
+
+permissions:
+  contents: write  # 赋予工作流写入内容的权限
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4  # 拉取代码
+    
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'  # 设置Python环境
+    
+      - name: Install dependencies
+        run: |
+          pip install mkdocs
+          pip install mkdocs-material  # 安装主题，可添加其他插件
+    
+      - name: Build and Deploy
+        run: mkdocs gh-deploy --force  # 构建并部署
