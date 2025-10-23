@@ -1,3 +1,4 @@
 # 个人博客
 
-mkdocs gh-deploy --force --ignore-history
+* 自动部署到gh-deploy分支
+* `.github\workflows\ci.yml`
