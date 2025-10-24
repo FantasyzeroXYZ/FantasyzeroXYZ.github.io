@@ -30,6 +30,7 @@
   * `mkdocs serve`
 
 ## 文件结构
+```
 ├──.github/
 │   └── workflows/
 │       └── ci.yml          # GitHub自动部署脚本
@@ -46,6 +47,7 @@
 ├── mkdocs.yml
 ├── README.md
 └── requirements.txt        # 可选：依赖列表文件
+```
 
 ## 待办
 * [ ] tag分类
