@@ -1,13 +1,8 @@
 ---
 date:
-  created: 2026-02-09
+  created: 2025-10-25
 ---
 
-# Happy 10th birthday, Material for MkDocs!
-
-It has been an amazing journey.
-
-<!-- more -->
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua.
+# 测试日志
+* 11111
+* 22222

@@ -1,16 +1,19 @@
-site_name: Blog Tutorial
-site_description: an example blog set up following the blog tutorials
+site_name: XYZ万事屋
+site_description: 个人博客
 site_url: https://fantasyzeroxyz.github.io  # 必须设置，用于RSS和社交卡片
+repo_url: https://github.com/FantasyzeroXYZ/FantasyzeroXYZ.github.io
+repo_name: FantasyzeroXYZ/FantasyzeroXYZ.github.io
 
 theme:
   name: material
+  locale: zh_Hans_CN  # 简体中文
   features:
     - navigation.indexes
     - navigation.tabs
     - navigation.sections
 
 plugins:
-  - search
+  - search:
   - blog:
       blog_toc: true
       archive_date_format: MMMM yyyy
