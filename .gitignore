@@ -1,2 +1,4 @@
-#vscode
-.history/
+*~
+site
+.cache
+__pycache__

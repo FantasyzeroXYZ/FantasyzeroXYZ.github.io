@@ -2,3 +2,7 @@
 
 * 自动部署到gh-deploy分支
 * `.github\workflows\ci.yml`
+
+* `pip install mkdocs-material`
+* mkdocs-blog-plugin
+* mkdocs-rss-plugin
