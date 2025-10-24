@@ -24,6 +24,10 @@ jobs:
         run: |
           pip install mkdocs
           pip install mkdocs-material  # 安装主题，可添加其他插件
+          pip install mkdocs-blog-plugin
+          pip install mkdocs-rss-plugin  # 添加博客和RSS插件
     
       - name: Build and Deploy
-        run: mkdocs gh-deploy --force  # 构建并部署
+        run: |
+          export PYTHONPATH="${PYTHONPATH}:$GITHUB_WORKSPACE"
+          mkdocs gh-deploy --force  # 构建并部署
