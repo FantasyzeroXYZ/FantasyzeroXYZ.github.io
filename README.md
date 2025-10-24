@@ -9,6 +9,7 @@
   * `py --list`
 * 指定python版本创建虚拟环境
   * `py -版本 -m venv venv`
+    * 3.11.2
 * 在目录下激活虚拟环境 
   * `.\venv\Scripts\Activate.ps1`
 * 更新虚拟环境里的pip
@@ -19,11 +20,11 @@
 * 生成requirements.txt
   * `pip freeze > requirements.txt`
 
-* (mkdocs-material)[https://github.com/squidfunk/mkdocs-material]
+* [mkdocs-material](https://github.com/squidfunk/mkdocs-material)
 * mkdocs-blog-plugin
 * mkdocs-rss-plugin
 * 模板
-  * (create-blog)[https://github.com/mkdocs-material/create-blog]
+  * [create-blog](https://github.com/mkdocs-material/create-blog)
 
 * 本地预览(powershell)
   * `$env:PYTHONPATH = "$env:PYTHONPATH;$env:GITHUB_WORKSPACE"`
